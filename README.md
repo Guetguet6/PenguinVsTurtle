@@ -11,8 +11,19 @@ Projet Final pour Modélisation Méthématiques
 
 Installation du projet Python
 
+* Sur linux :
+
 ```bash
-  pip install -r requirements.txt
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+* Sur Windows :
+
+```
+py -m venv .venv
+.venv\Scripts\activate
 ```
 
 ## Dataset
